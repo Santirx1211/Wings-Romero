@@ -7,7 +7,7 @@ body {
 /*menu*/
 .menu {
     background-color: #2f8f9d;
-    font-size: 20px;
+    font-size: 19px;
     font-family: 'Libre Baskerville', serif;
 }
 /*hero*/
@@ -164,8 +164,41 @@ margin: auto;
     font-size: 20px;
     width: 100px;
 }
+.valores {
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.valores h2 {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+.valores p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.valores .certifi img{
+    width: 100px;
+}
+
+
+
+
+
 .footer{
     background-color: #005555;
+    text-align: center;
+    align-items: center;
+}
+.footer .contact{
+    text-align: center;
+    align-items: center;
+}
+.footer .time {
     text-align: center;
     align-items: center;
 }
