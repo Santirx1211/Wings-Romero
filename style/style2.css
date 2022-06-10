@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Oswald:wght@200&display=swap');
+body {
+    font-family: 'Oswald', sans-serif;
+    background: rgb(48, 185, 205);
+    background: linear-gradient(90deg, rgba(48, 185, 205, 1) 0%, rgba(6, 154, 142, 1) 58%);
+}
+/*menu*/
+.menu {
+    background-color: #2f8f9d;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+/*hero*/
+.bg-img{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+.hero{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.info-content {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    background-color: #134e57a8;
+    border-radius: 10px;
+    width: 500px;
+    animation: Texto 2s ease 0s 1 normal forwards;
+}
+@keyframes Texto {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero p {
+    font-size: 35px;
+}
+/*cards*/
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+#cartas{
+    background: rgb(48, 185, 205);
+    background: linear-gradient(90deg, rgba(48, 185, 205, 1) 0%, rgba(6, 154, 142, 1) 58%);
+    text-align: center;
+    align-items: center;
+}
+.card img{
+    height: 250px;
+}
+
+/*nosotros*/
+#cube {
+    background-color: #ffffff;
+    border-radius: 50px;
+    animation: Entrada 1s ease 0s 1 normal forwards;
+}
+@keyframes Entrada {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+#nosotros img {
+    filter: drop-shadow(20px 20px 20px rgb(0, 0, 0));
+    -webkit-filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.459));
+    text-align: center;
+    align-items: center;
+}
+#nosotros h3 {
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #1d4675;
+    border: 2px solid #050505;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#nosotros h4{
+    font-weight: bold;
+}
+#data{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+#data h2{
+text-align: center;
+text-decoration: underline;
+font-weight: bold;
+}
+#data .form{
+background-color: #ffffff;
+border-radius: 5px;
+margin: auto;
+}
+#data .form textarea{
+    height: 150px; 
+    width:100%;
+}
+#data .form .btn{
+    font-size: 20px;
+    width: 100px;
+}
+.footer{
+    background-color: #005555;
+    text-align: center;
+    align-items: center;
+}
+.footer .copyright{
+    background-color: #022e2e
+}
