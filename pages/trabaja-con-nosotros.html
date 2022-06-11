@@ -7,23 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wings srl - Servicio de Limpieza</title>
     <link rel="shortcut icon" href="../img/icono.png">
-    <link rel="stylesheet" href="../style/style.css">
-    <script src="https://kit.fontawesome.com/26d8a8b5df.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <img src="../img/logo.png" class="logo" alt="Wings-Srl">
-            <ul class="menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="info.html">Información</a></li>
-                <li><a href="presupuesto.html">Presupuesto</a></li>
-                <li><a href="trabaja-con-nosotros.html">Trabaja con Nosotros</a></li>
-                <li><a href="referencias.html">Referencias</a></li>
-            </ul>
-            <div class="menu-bar">
-                <i class="fa-solid fa-bars"></i>
+        <!--Nav bootstrap-->
+        <nav class="navbar navbar-dark navbar-expand-sm menu">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./info.html">Info</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./presupuesto.html">Presupuesto</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="./referencias.html">Referencia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./trabaja-con-nosotros.html">Trabaja
+                                con nosotros</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -42,24 +54,48 @@
     </div>
     </form>
     <!--Pie de pagina-->
-    <footer class="footer">
-        <div class="contact">
-            <h3>Contacto</h3>
-            <p>Tel.: 351-3284620</p>
-            <p>Email.:empresa@wingss.com.ar</p>
+    <footer class="text-center text-lg-start text-white footer">
+        <div class="container p-4 pb-0">
+            <section class="principal">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <a href="../index.html" class="col-3 text-reset text-uppercase d-flex align-items-center">
+                            <img src="../img/logo.png" alt="logo" class="img-logo mr-2">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0 contact">
+                        <h5 class="text-uppercase">Contacto</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>Tel.: 351-3284620</li>
+                            <li>Email.:empresa@wingss.com.ar</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0 time">
+                        <h5 class="text-uppercase">Horarios</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>Lunes-Viernes</li>
+                            <li>9am - 16pm</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="mb-4 text-center redes">
+                <a class="btn btn-outline-light btn-floating m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+            </section>
         </div>
-        <div class="time">
-            <h3>Horarios</h3>
-            <p>Lunes-Viernes</p>
-            <p>9am - 16pm</p>
-        </div>
-        <div class="redes">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
+        <div class="text-center p-3 copyright">
+            © 2022 Copyright: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam laboriosam est quos et?
+            Accusamus, a.
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/26d8a8b5df.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
