@@ -429,6 +429,21 @@ body {
     height: 120px;
     border-radius: 50%;
 }
+.conten-form{
+    margin: 50px 0;
+
+}
+.form-trabaja{
+    padding: 1.3em;
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow:  inset 1px 1px 22px 4px rgba(0, 0, 0, .3);
+}
+.form-trabaja h3{
+    text-align: center;
+    color: #1d4675;
+}
 
 
 .footer {

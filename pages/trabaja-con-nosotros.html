@@ -40,19 +40,34 @@
         </nav>
     </header>
     <!--trabaja con nosotros-->
-    <div class="cont">
-        <form class="form">
-            <h2 class="form-title">Trabaja con nosotros</h2>
-            <div class="content-input">
-                <input type="text" name="nombre" placeholder="Nombre" class="input-50" required>
-                <input type="text" name="apellido" placeholder="Apellido" class="input-50" required>
-                <input type="email" name="correo" placeholder="Correo Electrónico" class="input-100" required>
-                <input type="tel" name="telefono" placeholder="teléfono" class="input-100" required>
-                <input type="file" name="Curriculum" required>
-                <input type="submit" value="Enviar" class="btn-enviar">
+    <section class="container conten-form">
+        <form action="#" method="get" enctype="multipart/form-data" class="row form-trabaja" >
+            <h3 class="display-4">Trabaja con Nosotros</h3>
+            <div class="col-6">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" name="nombre" id="nombre">
             </div>
-    </div>
-    </form>
+            <div class="col-6">
+                <label for="apellido">Apellido</label>
+                <input type="text" class="form-control" name="Apellido" id="apellido">
+            </div>
+            <div class="mb-2">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" name="correo" id="correo">
+            </div>
+            <div class="mb-2">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" class="form-control" name="telefono" id="tel">
+            </div>
+            <div class="mb-2">
+                <label for="formFile">Curriculum</label>
+                <input type="file" class="form-control form-control-sm" >
+            </div>
+            <div class="mb-2">
+                <button class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </section>
     <!--Pie de pagina-->
     <footer class="text-center text-lg-start text-white footer">
         <div class="container p-4 pb-0">
