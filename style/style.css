@@ -270,7 +270,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin: 50px 0;
+  margin: auto;
 }
 
 .valores h2 {
