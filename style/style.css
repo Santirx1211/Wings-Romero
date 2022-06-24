@@ -6,6 +6,23 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
+header h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+header h1::after {
+  content: "";
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
 /*menu*/
 .menu {
   background-color: #2f8f9d;
@@ -162,7 +179,7 @@ body {
           align-items: center;
 }
 
-#cartas .card img {
+#cartas img {
   height: 250px;
 }
 
@@ -284,7 +301,7 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
-.valores .certifi img {
+.valores img {
   width: 100px;
 }
 
@@ -375,12 +392,6 @@ body {
           box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
-.table:hover .price {
-  background: -webkit-gradient(linear, left top, right bottom, from(#22c324), to(#fdbb2d));
-  background: linear-gradient(to bottom right, #22c324, #fdbb2d);
-  color: white;
-}
-
 .table .month {
   display: block;
   font-size: 16px;
@@ -452,7 +463,7 @@ body {
 }
 
 .table .contratar:hover {
-  color: #fff;
+  color: black;
 }
 
 .table .contratar::before {
@@ -467,29 +478,8 @@ body {
   z-index: -1;
 }
 
-.table .contratar :hover::before {
-  background: 0 0;
-}
-
 .testimonios {
   margin: 50px auto;
-}
-
-.testimonios h1 {
-  text-align: center;
-  font-weight: bold;
-  color: #292827;
-  padding-bottom: 10px;
-  text-transform: uppercase;
-}
-
-.testimonios h1::after {
-  content: "";
-  background: #ff9800;
-  display: block;
-  height: 3px;
-  width: 170px;
-  margin: 20px auto 5px;
 }
 
 .testimonios .row {
