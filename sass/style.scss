@@ -1,16 +1,22 @@
 @import "./utilities/tipografia";
+@import "./utilities/variables";
 $primary-color:rgb(48, 185, 205);
 $gradient:linear-gradient(90deg, rgba(48, 185, 205, 1) 0%, rgba(6, 154, 142, 1) 58%);
 $menu-color:#2f8f9d;
 $footer-color:#005555;
+@mixin centro-total {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 body{
-    background-color: $primary-color;
+    background-color: $primary-color; 
     background: $gradient;
     font-family: $base;
 }
 header{
     h1{
-        text-align: center;
+        @include centro-total
         font-weight: bold;
         color: #ffffff;
         padding-bottom: 10px;
@@ -25,6 +31,24 @@ header{
         }
     }
 }
+form{
+    .button-basic  {
+        border: none;
+        padding: 15px 30px;
+        @include centro-total
+        font-size: 16px;
+        cursor: pointer;
+}
+.button-submit  {
+    @extend .button-basic;
+    background-color: rgb(22, 104, 199);
+    color: white;
+}
+.button-report  {
+    @extend .button-basic;
+    background-color: rgb(255, 123, 0);
+}
+}
 /*menu*/
 .menu{
     background-color:$menu-color;
@@ -38,9 +62,7 @@ header{
     height: 70vh;
 }
 .hero{
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    @include centro-total
     .info-content {
         color: $text-color;
         font-family: $base;
@@ -104,8 +126,7 @@ header{
 
 /*cards*/
 #cartas {
-    text-align: center;
-    align-items: center;
+    @include centro-total
     img {
         height: 250px;
     }
@@ -124,9 +145,7 @@ header{
 #nosotros{
     h3 {
         font-size: 35px;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
+        @include centro-total
         color: #1d4675;
         border: 2px solid #050505;
         border-radius: 10px;
@@ -157,10 +176,9 @@ header{
 }
 #data {
     margin-top: 20px;
-    text-align: center;
-    align-items: center;
+    @include centro-total
     h2 {
-        text-align: center;
+        @include centro-total
         text-decoration: underline;
     }
     .form {
@@ -178,8 +196,7 @@ header{
     }
 }
 .valores {
-    align-items: center;
-    text-align: center;
+    @include centro-total
     margin: auto;
     h2 {
         color: $text-color;
@@ -195,8 +212,7 @@ header{
     }
 }
 .competencia {
-    text-align: center;
-    align-items: center;
+    @include centro-total
     img {
         height: auto;
         width: 50%;
@@ -206,7 +222,7 @@ header{
 .table {
     padding-bottom: 20px;
     position: relative;
-    text-align: center;
+    @include centro-total
     background: #fff;
     border-radius: 10px;
     transition: all .3s ease 0s;
@@ -389,15 +405,21 @@ header{
 }
 .footer {
     background-color: $footer-color;
-    text-align: center;
-    align-items: center;
+    @include centro-total
+    .face{
+        background-color: map-get($redes,face)
+    }
+    .inst{
+        background-color: map-get($redes,inst);
+    }
+    .in{
+        background-color: map-get($redes, in);
+    }
     .contact {
-        text-align: center;
-        align-items: center;
+        @include centro-total
     }
     .time {
-        text-align: center;
-        align-items: center;
+        @include centro-total
     }
     .copyright {
         background-color: #022e2e

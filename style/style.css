@@ -8,6 +8,12 @@ body {
 
 header h1 {
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: bold;
   color: #ffffff;
   padding-bottom: 10px;
@@ -21,6 +27,29 @@ header h1::after {
   height: 3px;
   width: 170px;
   margin: 20px auto 5px;
+}
+
+form .button-basic, form .button-submit, form .button-report {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form .button-submit {
+  background-color: #1668c7;
+  color: white;
+}
+
+form .button-report {
+  background-color: #ff7b00;
 }
 
 /*menu*/
@@ -38,13 +67,13 @@ header h1::after {
 }
 
 .hero {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero .info-content {
@@ -174,6 +203,9 @@ header h1::after {
 /*cards*/
 #cartas {
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -256,6 +288,9 @@ header h1::after {
 #data {
   margin-top: 20px;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -263,6 +298,12 @@ header h1::after {
 
 #data h2 {
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: underline;
 }
 
@@ -283,10 +324,13 @@ header h1::after {
 }
 
 .valores {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
   margin: auto;
 }
 
@@ -307,6 +351,9 @@ header h1::after {
 
 .competencia {
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -322,6 +369,12 @@ header h1::after {
   padding-bottom: 20px;
   position: relative;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #fff;
   border-radius: 10px;
   -webkit-transition: all .3s ease 0s;
@@ -545,13 +598,31 @@ header h1::after {
 .footer {
   background-color: #005555;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
+.footer .face {
+  background-color: #3b5998;
+}
+
+.footer .inst {
+  background-color: #833AB4;
+}
+
+.footer .in {
+  background-color: #0e76a8;
+}
+
 .footer .contact {
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -559,6 +630,9 @@ header h1::after {
 
 .footer .time {
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
