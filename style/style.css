@@ -1,25 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 body {
-  background-color: #30b9cd;
-  background: -webkit-gradient(linear, left top, right top, from(#30b9cd), color-stop(58%, #069a8e));
-  background: linear-gradient(90deg, #30b9cd 0%, #069a8e 58%);
+  background-color: rgb(48, 185, 205);
+  background: linear-gradient(90deg, rgb(48, 185, 205) 0%, rgb(6, 154, 142) 58%);
   font-family: "Oswald", sans-serif;
 }
 
 header h1 {
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-weight: bold;
   color: #ffffff;
   padding-bottom: 10px;
   text-transform: uppercase;
 }
-
 header h1::after {
   content: "";
   background: #ff9800;
@@ -29,27 +23,21 @@ header h1::after {
   margin: 20px auto 5px;
 }
 
-form .button-basic, form .button-submit, form .button-report {
+form .button-basic, form .button-report, form .button-submit {
   border: none;
-  padding: 15px 30px;
+  padding: 5px 20px;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   cursor: pointer;
 }
-
 form .button-submit {
-  background-color: #1668c7;
+  background-color: rgb(22, 104, 199);
   color: white;
 }
-
 form .button-report {
-  background-color: #ff7b00;
+  background-color: rgb(255, 123, 0);
 }
 
 /*menu*/
@@ -57,6 +45,9 @@ form .button-report {
   background-color: #2f8f9d;
   font-size: 19px;
   font-family: "Libre Baskerville", serif;
+}
+.menu img:hover {
+  transform: scale(1.1);
 }
 
 .bg-img {
@@ -68,28 +59,21 @@ form .button-report {
 
 .hero {
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .hero .info-content {
   color: white;
   font-family: "Oswald", sans-serif;
-  background-color: #134e57a8;
+  background-color: rgba(19, 78, 87, 0.6588235294);
   border-radius: 10px;
   width: 500px;
   -webkit-animation: Texto 2s ease 0s 1 normal forwards;
           animation: Texto 2s ease 0s 1 normal forwards;
 }
-
 .hero .info-content h1 {
   font-size: 60px;
 }
-
 .hero .info-content p {
   font-size: 35px;
 }
@@ -99,8 +83,7 @@ form .button-report {
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
     opacity: 1;
-    -webkit-transform: translateY(-45px);
-            transform: translateY(-45px);
+    transform: translateY(-45px);
   }
   24% {
     opacity: 1;
@@ -108,42 +91,33 @@ form .button-report {
   40% {
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
-    -webkit-transform: translateY(-24px);
-            transform: translateY(-24px);
+    transform: translateY(-24px);
   }
   65% {
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
-    -webkit-transform: translateY(-12px);
-            transform: translateY(-12px);
+    transform: translateY(-12px);
   }
   82% {
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
-    -webkit-transform: translateY(-6px);
-            transform: translateY(-6px);
+    transform: translateY(-6px);
   }
   93% {
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
-    -webkit-transform: translateY(-4px);
-            transform: translateY(-4px);
+    transform: translateY(-4px);
   }
-  25%,
-  55%,
-  75%,
-  87% {
+  25%, 55%, 75%, 87% {
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
   100% {
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
     opacity: 1;
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
 
@@ -152,8 +126,7 @@ form .button-report {
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
     opacity: 1;
-    -webkit-transform: translateY(-45px);
-            transform: translateY(-45px);
+    transform: translateY(-45px);
   }
   24% {
     opacity: 1;
@@ -161,97 +134,70 @@ form .button-report {
   40% {
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
-    -webkit-transform: translateY(-24px);
-            transform: translateY(-24px);
+    transform: translateY(-24px);
   }
   65% {
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
-    -webkit-transform: translateY(-12px);
-            transform: translateY(-12px);
+    transform: translateY(-12px);
   }
   82% {
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
-    -webkit-transform: translateY(-6px);
-            transform: translateY(-6px);
+    transform: translateY(-6px);
   }
   93% {
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
-    -webkit-transform: translateY(-4px);
-            transform: translateY(-4px);
+    transform: translateY(-4px);
   }
-  25%,
-  55%,
-  75%,
-  87% {
+  25%, 55%, 75%, 87% {
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
   100% {
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
     opacity: 1;
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
-
 /*cards*/
 #cartas {
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 #cartas img {
   height: 250px;
 }
-
 #cartas .card-border {
   border: solid 10px white;
   border-radius: 20px;
   overflow: hidden;
-  -webkit-transition: all ease-out 0.2s;
   transition: all ease-out 0.2s;
 }
-
 #cartas .card-border:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /*nosotros*/
 #nosotros h3 {
   font-size: 35px;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   color: #1d4675;
   border: 2px solid #050505;
   border-radius: 10px;
 }
-
 #nosotros img {
-  filter: drop-shadow(20px 20px 20px black);
+  filter: drop-shadow(20px 20px 20px rgb(0, 0, 0));
   -webkit-filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.459));
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 #nosotros #cube {
   background-color: #ffffff;
   border-radius: 50px;
@@ -262,62 +208,45 @@ form .button-report {
 @-webkit-keyframes Entrada {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(-250px);
-            transform: translateX(-250px);
+    transform: translateX(-250px);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
 @keyframes Entrada {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(-250px);
-            transform: translateX(-250px);
+    transform: translateX(-250px);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
 }
-
 #data {
   margin-top: 20px;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 #data h2 {
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-decoration: underline;
 }
-
 #data .form {
   background-color: #ffffff;
   border-radius: 5px;
   margin: auto;
 }
-
 #data .form textarea {
   height: 150px;
   width: 100%;
 }
-
 #data .form .btn {
   font-size: 20px;
   width: 100px;
@@ -325,40 +254,28 @@ form .button-report {
 
 .valores {
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: auto;
 }
-
 .valores h2 {
   color: white;
   font-size: 35px;
   text-align: center;
 }
-
 .valores p {
   font-size: 20px;
   font-family: "Oswald", sans-serif;
 }
-
 .valores img {
   width: 100px;
 }
 
 .competencia {
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .competencia img {
   height: auto;
   width: 50%;
@@ -369,21 +286,14 @@ form .button-report {
   padding-bottom: 20px;
   position: relative;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   background: #fff;
   border-radius: 10px;
-  -webkit-transition: all .3s ease 0s;
-  transition: all .3s ease 0s;
+  transition: all 0.3s ease 0s;
   margin-top: 5px;
 }
-
 .table .title {
-  background: -webkit-gradient(linear, left top, right bottom, from(#22c324), to(#fdbb2d));
   background: linear-gradient(to bottom right, #22c324, #fdbb2d);
   padding: 40px 20px 170px;
   margin: 0;
@@ -394,7 +304,6 @@ form .button-report {
   color: #fff;
   overflow: hidden;
 }
-
 .table .title::before {
   content: "";
   height: 200px;
@@ -404,10 +313,8 @@ form .button-report {
   left: -46px;
   background: #fff;
   border-radius: 80px;
-  -webkit-transform: rotate(-85deg);
-          transform: rotate(-85deg);
+  transform: rotate(-85deg);
 }
-
 .table .title::after {
   content: "";
   height: 200px;
@@ -419,10 +326,8 @@ form .button-report {
   left: auto;
   background: #fff;
   border-radius: 100px;
-  -webkit-transform: rotate(-40deg);
-          transform: rotate(-40deg);
+  transform: rotate(-40deg);
 }
-
 .table .price {
   width: 120px;
   height: 120px;
@@ -437,30 +342,23 @@ form .button-report {
   line-height: 50px;
   font-weight: 600;
   border-radius: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
-  -webkit-transition: all .3s ease 0s;
-  transition: all .3s ease 0s;
-  -webkit-box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.3);
+  transform: translate(-50%);
+  transition: all 0.3s ease 0s;
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.3);
 }
-
 .table .month {
   display: block;
   font-size: 16px;
   font-weight: 400;
   line-height: 0;
 }
-
 .table .content {
   list-style: none;
   padding: 0;
   margin: 20px;
   text-align: left;
-  -webkit-transition: all .3s ease 0s;
-  transition: all .3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
-
 .table .content li {
   padding: 7px 0 7px 50px;
   position: relative;
@@ -469,7 +367,6 @@ form .button-report {
   font-weight: 500;
   letter-spacing: 1px;
 }
-
 .table .content li::before {
   content: "\f00c";
   height: 24px;
@@ -484,22 +381,17 @@ form .button-report {
   position: absolute;
   top: 50%;
   left: 12px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
-
 .table .content li.disable {
   color: #707070;
 }
-
 .table .content li.disable::before {
   content: "\f00d";
   color: #707070;
   border-color: #707070;
 }
-
 .table .contratar {
-  background: -webkit-gradient(linear, left top, right bottom, from(#22c324), to(#fdbb2d));
   background: linear-gradient(to bottom right, #22c324, #fdbb2d);
   position: relative;
   padding: 10px 40px;
@@ -510,15 +402,12 @@ form .button-report {
   color: #404040;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all .3s ease 0s;
-  transition: all .3s ease 0s;
+  transition: all 0.3s ease 0s;
   z-index: 1;
 }
-
 .table .contratar:hover {
-  color: black;
+  color: rgb(0, 0, 0);
 }
-
 .table .contratar::before {
   content: "";
   height: 92%;
@@ -534,44 +423,34 @@ form .button-report {
 .testimonios {
   margin: 50px auto;
 }
-
 .testimonios .row {
   margin-top: 30px;
 }
-
 .testimonios .row .col-md-4 {
   margin: 40px auto;
 }
-
 .testimonios .profile {
   padding: 70px 10px 10px;
   background-color: #efefef;
 }
-
 .testimonios .profile h3 {
   font-size: 20px;
   margin-top: 15px;
   color: #35312c;
 }
-
 .testimonios .profile blockquote {
   font-size: 16px;
   line-height: 30px;
 }
-
 .testimonios .profile:hover {
-  -webkit-box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
 .testimonios .profile img {
   left: calc(50% - 60px);
   border: 10px solid white;
 }
-
 .testimonios .profile .user {
   width: 120px;
   height: 120px;
@@ -581,15 +460,12 @@ form .button-report {
 .conten-form {
   margin: 50px 0;
 }
-
 .conten-form .form-trabaja {
   padding: 1.3em;
   background-color: #fff;
   border-radius: 0.5em;
-  -webkit-box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.3);
-          box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.3);
 }
-
 .conten-form .form-trabaja h3 {
   text-align: center;
   color: #1d4675;
@@ -598,46 +474,28 @@ form .button-report {
 .footer {
   background-color: #005555;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .footer .face {
   background-color: #3b5998;
 }
-
 .footer .inst {
   background-color: #833AB4;
 }
-
 .footer .in {
   background-color: #0e76a8;
 }
-
 .footer .contact {
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .footer .time {
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .footer .copyright {
   background-color: #022e2e;
 }
@@ -650,10 +508,8 @@ form .button-report {
     font-size: 25px;
   }
 }
-
 @media (max-width: 744px) {
   .menu {
     font-size: 15px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
