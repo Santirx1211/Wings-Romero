@@ -72,7 +72,7 @@ form .button-report {
           animation: Texto 2s ease 0s 1 normal forwards;
 }
 .hero .info-content h1 {
-  font-size: 60px;
+  font-size: 45px;
 }
 .hero .info-content p {
   font-size: 35px;
@@ -170,7 +170,7 @@ form .button-report {
   align-items: center;
 }
 #cartas img {
-  height: 250px;
+  height: 300px;
 }
 #cartas .card-border {
   border: solid 10px white;
@@ -184,7 +184,7 @@ form .button-report {
 
 /*nosotros*/
 #nosotros h3 {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -244,7 +244,6 @@ form .button-report {
   margin: auto;
 }
 #data .form textarea {
-  height: 150px;
   width: 100%;
 }
 #data .form .btn {
@@ -264,8 +263,13 @@ form .button-report {
   text-align: center;
 }
 .valores p {
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Oswald", sans-serif;
+  text-align: justify;
+}
+.valores li {
+  font-size: 16px;
+  text-align: justify;
 }
 .valores img {
   width: 100px;
@@ -280,6 +284,10 @@ form .button-report {
   height: auto;
   width: 50%;
   margin: auto;
+}
+.competencia p {
+  text-align: justify;
+  text-align: 16px;
 }
 
 .table {

@@ -78,7 +78,7 @@ form{
         width: 500px;
         animation: Texto 2s ease 0s 1 normal forwards;
         h1 {
-            font-size: 60px;
+            font-size: 45px;
         }
         p {
             font-size: 35px;
@@ -135,7 +135,7 @@ form{
 #cartas {
     @include center;
     img {
-        height: 250px;
+        height: 300px;
     }
     .card-border {
         border: solid 10px white;
@@ -151,7 +151,7 @@ form{
 /*nosotros*/
 #nosotros{
     h3 {
-        font-size: 35px;
+        font-size: 30px;
         @include center();
         color: #1d4675;
         border: 2px solid #050505;
@@ -193,7 +193,6 @@ form{
         border-radius: 5px;
         margin: auto;
         textarea {
-            height: 150px;
             width: 100%;
         }
         .btn {
@@ -211,8 +210,13 @@ form{
         text-align: center;
     }
     p {
-        font-size: 20px;
+        font-size: 16px;
         font-family:$base;
+        text-align: justify;
+    }
+    li {
+        font-size: 16px;
+        text-align: justify;
     }
     img {
         width: 100px;
@@ -224,6 +228,10 @@ form{
         height: auto;
         width: 50%;
         margin: auto;
+    }
+    p{
+        text-align: justify;
+        text-align: 16px;
     }
 }
 .table {
