@@ -38,7 +38,7 @@ form{
         border: none;
         padding: 5px 20px;
         @include center();
-        font-size: 16px;
+        font-size: 1rem;
         cursor: pointer;
 }
 .button-submit  {
@@ -78,10 +78,10 @@ form{
         width: 500px;
         animation: Texto 2s ease 0s 1 normal forwards;
         h1 {
-            font-size: 45px;
+            font-size: 2.5rem;
         }
         p {
-            font-size: 35px;
+            font-size: 2rem;
         }
     }
 }
@@ -151,7 +151,7 @@ form{
 /*nosotros*/
 #nosotros{
     h3 {
-        font-size: 30px;
+        font-size: 2rem;
         @include center();
         color: #1d4675;
         border: 2px solid #050505;
@@ -182,7 +182,6 @@ form{
     }
 }
 #data {
-    margin-top: 20px;
     @include center();
     h2 {
         @include center();
@@ -196,7 +195,7 @@ form{
             width: 100%;
         }
         .btn {
-            font-size: 20px;
+            font-size: 1rem;
             width: 100px;
         }
     }
@@ -206,16 +205,16 @@ form{
     margin: auto;
     h2 {
         color: $text-color;
-        font-size: 35px;
+        font-size: 2rem;
         text-align: center;
     }
     p {
-        font-size: 16px;
+        font-size: 1rem;
         font-family:$base;
         text-align: justify;
     }
     li {
-        font-size: 16px;
+        font-size: 1rem;
         text-align: justify;
     }
     img {
@@ -231,7 +230,7 @@ form{
     }
     p{
         text-align: justify;
-        text-align: 16px;
+        text-align: 1rem;
     }
 }
 .table {
@@ -246,7 +245,7 @@ form{
         background: linear-gradient(to bottom right, #22c324, #fdbb2d);
         padding: 40px 20px 170px;
         margin: 0;
-        font-size: 30px;
+        font-size: 2rem;
         font-weight: 600;
         position: relative;
         text-transform: uppercase;
@@ -297,7 +296,7 @@ form{
     }
     .month {
         display: block;
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 400;
         line-height: 0;
     }
@@ -311,7 +310,7 @@ form{
             padding: 7px 0 7px 50px;
             position: relative;
             color: #000;
-            font-size: 16px;
+            font-size: 1rem;
             font-weight: 500;
             letter-spacing: 1px;
             &::before{
@@ -344,7 +343,7 @@ form{
         background: linear-gradient(to bottom right, #22c324, #fdbb2d);
         position: relative;
         padding: 10px 40px;
-        font-size: 18px;
+        font-size: calc(1rem + 2px);
         font-weight: bold;
         border-radius: 30px;
         display: inline-block;
@@ -386,7 +385,7 @@ form{
             color: #35312c;
         }
         blockquote{
-            font-size: 16px;
+            font-size: 1rem;
             line-height: 30px;
         }
         &:hover{
@@ -444,17 +443,17 @@ form{
     .hero{
         .info-content{
             h1{
-                font-size: 40px;
+                font-size: 2.5rem;
             }
             p{
-                font-size: 25px;
+                font-size: 1.5rem;
             }
         }
     }
 }
 @media (max-width:744px){
     .menu{
-        font-size: 15px;
+        font-size: 1rem;
     }
 }
 
